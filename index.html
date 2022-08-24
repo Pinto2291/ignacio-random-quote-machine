@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine Ignacio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body id="body-tag">
+
+    <div class="row justify-content-center mt-4">
+        <p class="col-1 text-center bg-black text-white rounded p-2 m-0" id="counterBox"></p>
+    </div>
+
+    <wrapper class="bg-white position-absolute text-center container rounded" id="quote-box">
+
+        <div class="textAndAuthor col justify-content-center my-4">
+
+            <div class="fw-bold col fs-4 mb-5" id="text"></div>
+
+            <div class="fw-bold col fs-6" id="author"></div>
+
+        </div>
+
+        <div class="row justify-content-around my-4">
+
+            <button id="new-quote" class="rounded fw-bold col-sm-3 mb-3 p-2 text-uppercase bg-black text-white fs-6 table-hover" onclick="produceQuote()">New Quote</button>
+
+            <a href="" class="button rounded fw-bold col-sm-3 p-2 text-uppercase bg-black text-white mb-3 fs-6 text-decoration-none" target="_blank" id="tweet-quote">tweet this</a>
+
+        </div>        
+
+    </wrapper>
+
+    <div class="position-absolute author-title">
+        <p class="text-center rounded bg-black text-white p-2 fs-6">By Ignacio Pinto</p> 
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    
+</body>
+</html>

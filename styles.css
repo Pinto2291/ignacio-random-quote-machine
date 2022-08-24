@@ -1,0 +1,35 @@
+:root {
+    --brown-color: #bdbb99;
+    --white-color: #f2f4f5;
+    --black-color: #797a7a;
+    --turquese-color: #2cf5e7;
+    --light-blue-color: #4969f5;
+    --purple-color: #9949f5;
+    --orange-color: #f79d43;
+    --black-color: #383838;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif, Helvetica;
+    background-color: var(--light-blue-color);
+}
+
+#quote-box {      
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+#new-quote {
+    cursor: pointer;
+}
+
+.author-title {
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 50%);   
+}
